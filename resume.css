@@ -1,0 +1,48 @@
+@font-face{
+    font-family: resumeFont;
+    src: url(tnr.ttf);
+}
+
+body{
+    font-family:resumeFont;
+}
+
+tr.section {
+    vertical-align:top;
+}
+
+table.s {
+    margin-top:10px;
+}
+
+span.big {
+    font-size:20;
+}
+
+.divTable{
+    display: table;
+    width: 6.5in;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.rightcell, .divTableHead {
+    display: table-cell;
+    padding: 10px 0px;
+}
+
+.leftcell {
+    display: table-cell;
+    width:1.3in;
+    color:#002259;
+}
+.leftcell::first-letter {
+    font-size:24;
+}
+
+
+.divTableBody {
+    display: table-row-group;
+}
