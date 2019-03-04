@@ -19,12 +19,18 @@ span.big {
     font-size:20;
 }
 
-.divTable{
+.resumetable{
     display: table;
-    width: 6.5in;
+    width: 7in;
+    padding-top:10px;
 }
 
-.divTableRow {
+.resumetablebody{
+    display: table;
+    width: 7in;
+}
+
+.resumetablerow {
     display: table-row;
 }
 
@@ -42,6 +48,22 @@ span.big {
     font-size:24;
 }
 
+.employertable{
+    display: table;
+    width: 100%;
+}
+
+.leftcell2 {
+    display: table-cell;
+    width:3in;
+    padding-bottom:5px;
+}
+
+.rightcell2 {
+    display: table-cell;
+    padding: 10px 0px;
+    text-align:right;
+}
 
 .divTableBody {
     display: table-row-group;
