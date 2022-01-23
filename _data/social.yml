@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto://johnchampagne97@gmail.com
+  icon: fas fa-envelope
+- title: LinkedIn
+  url: https://linkedin.com/in/john-champagne-227738157
+  icon: fab fa-linkedin
+- title: GitHub
+  url: https://github.com/john-champagne
+  icon: fab fa-github
