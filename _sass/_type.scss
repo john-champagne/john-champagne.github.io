@@ -42,9 +42,9 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  //-webkit-hyphens: auto;
+  //    -ms-hyphens: auto;
+  //        hyphens: auto;
 }
 
 ul, ol, dl {
@@ -82,7 +82,7 @@ abbr {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: var(--gray-500);
+  color: var(--gray-600);
   border-left: .25rem solid var(--border-color);
 
   p:last-child {

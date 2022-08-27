@@ -2,6 +2,17 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
+  
+  <style>
+    /* I added this to fix the font... - Johnny */
+    html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+        /* Set your content font stack here: */
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    </style>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
 
   <body>
 

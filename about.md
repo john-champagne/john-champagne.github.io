@@ -1,11 +1,18 @@
 ---
 layout: page
-title: About
+title: About me
 ---
-I'm Johnny Champagne, a computer engineer from Huntsville, Alabama. I work professionally as a reverse engineer for **[Dynetics](https://www.dynetics.com/)** and I am currently pursuing a master's degree at the University of Alabama in Huntsville.
+![Me](/assets/about/me.jpg){: width="250" }
+*My wife and I in 2021*
 
-My academic interests include digital signal processing, image processing, and data compression. I also enjoy hobbyist electronics and programming.
 
-My girlfriend (now wife) got tired of me explaining nerdy stuff to her, so I write here now.
+I'm Johnny Champagne, a computer engineer in Huntsville, Alabama. I work professionally as a reverse engineer for **[Dynetics](https://www.dynetics.com/)**.
 
-Feel free to contact me for any reason. The best way to reach me is via email.
+I got my BS in Electrical Engineering at the University of Louisiana at Lafayette and I am currently pursuing an MS in Electrical Engineering at the University of Alabama in Huntsville.
+
+My academic interests include digital signal processing, image processing, and data compression. I also enjoy hobbyist electronics, programming, and math.
+
+I use this page to write about math, my projects, or whatever is currently on my mind.
+
+
+The best way to contact me is via email: [johnchampagne97@gmail.com](mailto:johnchampagne97@gmail.com)

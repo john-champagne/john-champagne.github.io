@@ -116,7 +116,7 @@ Because $$m>n$$, and $$H_n(x)$$ is an n<sup>th</sup> order polynomial, the m<sup
 We now consider the case of $$n=m$$. In this case, the problem proceeds in the same way, with $$m$$ repeated integration by parts.
 
 $$
-= \int_{-\infty}^{\infty}\left(\frac{d^m}{dx^m}h_m(x)\right)e^{-x^2}dx
+= \int_{-\infty}^{\infty}\left(\frac{d^m}{dx^m}H_m(x)\right)e^{-x^2}dx
 $$
 
 In this case, however, the derivative is not equal to zero. To derive the value of this derivative, we use the recurence relationship derived above.
