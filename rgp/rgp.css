@@ -1,6 +1,36 @@
-body {
-	max-width: 4in;
-	margin: 0 auto;
+@media screen and (orientation: landscape) {
+	body {
+		max-width: 4in;
+		margin: 0 auto;
+		padding: 0.25in 50px;
+		text-align: left;
+	}
+
+	.title {
+		font-size: 25px;
+	}
+}
+
+/* For mobile phone users in portrait orientation */
+@media screen and (orientation: portrait) {
+	body {
+		max-width: 100%;
+		margin: 0 auto;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 1in;
+		padding-bottom: 1in;
+		text-align: left;
+		font-size: 2vw;
+	}
+
+	.title {
+		font-size: 3vh;
+	}
+
+	.psalm-header {
+		font-size: 2.5vh;
+	}
 }
 
 .psalm-header {
@@ -24,7 +54,6 @@ body {
 }
 
 .title {
-	font-size: 25px;
 	text-transform: uppercase;
 	font-family: sans-serif;
 	font-weight: bold;
