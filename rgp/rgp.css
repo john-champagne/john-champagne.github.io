@@ -1,0 +1,62 @@
+@media screen and (orientation: landscape) {
+	body {
+		max-width: 4in;
+		margin: 0 auto;
+		padding: 0.25in 50px;
+		text-align: left;
+	}
+
+	.title {
+		font-size: 25px;
+	}
+}
+
+/* For mobile phone users in portrait orientation */
+@media screen and (orientation: portrait) {
+	body {
+		max-width: 100%;
+		margin: 0 auto;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 1in;
+		padding-bottom: 1in;
+		text-align: left;
+		font-size: 2vw;
+	}
+
+	.title {
+		font-size: 3vh;
+	}
+
+	.psalm-header {
+		font-size: 2.5vh;
+	}
+}
+
+.psalm-header {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: darkred;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.verse {
+	color: red;
+}
+
+.seperator {
+	font-size: 20px;
+	text-align: center;
+	color: gray;
+}
+
+.title {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: darkred;
+	text-align: center;
+}
